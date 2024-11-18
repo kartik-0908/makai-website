@@ -92,7 +92,7 @@ function Form() {
           <label htmlFor="email">Email :</label>
           <input
             type="email"
-            placeholder="Enter yourEmail"
+            placeholder="Enter your Email"
             name="email"
             value={formData.email}
             onChange={handleChange}
