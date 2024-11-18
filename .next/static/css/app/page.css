@@ -1,0 +1,777 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_par___5tzc{
+  background-color: #f3f3f3;
+}
+
+.page_page__ZU32B {
+  background-color: #f3f3f3;
+}
+
+.page_sec1_container__Knl9G{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.page_sec1_container_t__Vj6Ug{
+  margin-top: 60px;
+  max-width: 60%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+@import url('https://api.fontshare.com/v2/css?f[]=clash-grotesk@800&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+.page_sec1_container_t__Vj6Ug h2{
+  font-family: 'Clash Grotesk', sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.page_sec1_container_t__Vj6Ug button{
+  display: block;
+  padding: 10px 20px;
+  border-radius: 16px;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24.3px;
+  color: #FFFFFF;
+  background-color: #1F1F1F;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.page_sec1_container_t__Vj6Ug img{
+  width: 150px;
+}
+
+
+/* starting sec3 */
+.page_sec3__9iUJ7{
+  padding: 120px 30px;
+}
+
+.page_sec3_container__vO3lK{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 80%;
+}
+
+.page_sec3_header_wrapper__gaDd5 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 80px;
+  gap: 16px;
+}
+
+.page_sec3_header_wrapper__gaDd5 h1{
+  font-family: 'Clash Grotesk', sans-serif;
+  letter-spacing: -1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 120%;
+  color: #161525;
+}
+
+.page_sec3_header_wrapper__gaDd5 p{
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 170%;
+  font-family: 'Clash Grotesk', sans-serif;
+  color: #5f5f69;
+}
+
+.page_sec3_features__1qfnV {
+  border-radius: 16px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  gap: 170px;
+}
+
+.page_sec3_features_tab__qc0Vh{
+  border-radius: 16px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.page_sec3_features_tab_button_wrapper__Mq304{
+  border-right: 1px solid #1615250f;
+  flex-flow: column;
+  width: 35%;
+  padding-bottom: 50px;
+  display: flex;
+  position: relative;
+}
+
+.page_sec3_features_tab_single__kabjq{
+  gap: 20px;
+  color: #3330;
+  background-color: #ddd0;
+  border-top: 2px solid #1615250f;
+  border-left: 2px solid #0000;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 24px;
+  display: flex;
+  vertical-align: top;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  max-width: 100%;
+}
+
+.page_tab_button_icon_left__LnHvT{
+  width: 24px;
+  padding-top: 2px;
+}
+
+.page_tab_icon_left___A3vT{
+  width: 28px;
+}
+
+.page_tab_button_content__12JMr{
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  width: 80%;
+}
+
+.page_tab_button_content__12JMr h2{
+  font-family: 'Clash Grotesk', sans-serif;
+  color: #161525;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 170%;
+}
+
+.page_tab_button_content__12JMr p{
+  color: #5f5f69;
+  font-family: 'Clash Grotesk', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 170%;
+}
+
+.page_tab_button_icon_right__8I513{
+  width: 18px;
+}
+
+.page_tab_icon_right__0F4nQ{
+  width: 18px;
+}
+
+.page_sec3_features_tab_content_wrapper__oqAwX{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  position: relative;
+  overflow: hidden;
+}
+
+.page_sec3_features_tab_content_wrapper_single__b0KsS{
+  position: relative;
+}
+
+.page_features_tab_image__PW4rl{
+  border: 1.5px solid #161525;
+  border-radius: 18px;
+  width: 230px;
+  height: 500px;
+  max-height: 500px;
+  box-shadow: 0 4px #000;
+}
+
+.page_sec3_button__yEIzg{
+  display: flex;
+  justify-content: center;
+}
+
+.page_sec3_button__yEIzg button{
+  padding: 10px 20px;
+  border-radius: 16px;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24.3px;
+  color: #FFFFFF;
+  background-color: #1F1F1F;
+  cursor: pointer;
+}
+
+.page_contactSection__TxMLV{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page_contactSection__TxMLV h2{
+    font-family: 'Clash Grotesk', sans-serif;
+    letter-spacing: -1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #161525;
+}
+
+/* Tablet Screens: Between 768px and 950px */
+@media screen and (max-width: 950px) {
+  .page_sec1_container_t__Vj6Ug {
+    max-width: 70%;
+  }
+
+  .page_sec1_container_t__Vj6Ug h2 {
+    font-size: 40px;
+  }
+
+  .page_sec1_container_t__Vj6Ug button {
+    font-size: 16px;
+    padding: 8px 8px;
+  }
+
+  .page_sec3__9iUJ7 {
+    padding: 100px 20px;
+  }
+
+  .page_sec3_features__1qfnV {
+    gap: 120px;
+  }
+
+  .page_sec3_features_tab_button_wrapper__Mq304 {
+    width: 40%;
+  }
+
+  .page_sec3_features_tab_content_wrapper__oqAwX {
+    width: 60%;
+  }
+
+  .page_sec3_header_wrapper__gaDd5 h1 {
+    font-size: 40px;
+  }
+
+  .page_sec3_header_wrapper__gaDd5 p {
+    font-size: 16px;
+  }
+
+  .page_features_tab_image__PW4rl {
+    width: 200px;
+    height: 400px;
+  }
+}
+
+/* Mobile Screens: Between 548px and 768px */
+@media screen and (max-width: 768px) {
+  .page_sec1_container_t__Vj6Ug {
+    max-width: 90%;
+  }
+
+  .page_sec1_container_t__Vj6Ug h2 {
+    font-size: 32px;
+  }
+
+  .page_sec1_container_t__Vj6Ug img {
+    width: 100px;
+  }
+
+  .page_sec3__9iUJ7 {
+    padding: 80px 15px;
+  }
+
+  .page_sec3_features__1qfnV {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .page_sec3_features_tab_button_wrapper__Mq304 {
+    width: 100%;
+  }
+
+    .page_sec3_features_tab_content_wrapper__oqAwX{
+      display: none;
+    }
+
+  .page_sec3_features_tab_single__kabjq {
+    gap: 15px;
+    padding: 16px;
+  }
+
+  .page_tab_button_content__12JMr h2 {
+    font-size: 16px;
+  }
+
+  .page_tab_button_content__12JMr p {
+    font-size: 14px;
+  }
+
+  .page_features_tab_image__PW4rl {
+    width: 180px;
+    height: 360px;
+  }
+
+  .page_sec3_header_wrapper__gaDd5 h1 {
+    font-size: 32px;
+  }
+
+  .page_sec3_header_wrapper__gaDd5 p {
+    font-size: 14px;
+  }
+
+  .page_contactSection__TxMLV h2 {
+    font-size: 32px;
+  }
+}
+
+/* Small Mobile Screens: Below 548px */
+@media screen and (max-width: 548px) {
+  .page_sec1_container_t__Vj6Ug {
+    max-width: 100%;
+  }
+
+  .page_sec1_container_t__Vj6Ug h2 {
+    font-size: 28px;
+  }
+
+  .page_sec1_container_t__Vj6Ug img {
+    width: 100px;
+  }
+
+  .page_sec3_features_tab_single__kabjq {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .page_sec3_header_wrapper__gaDd5 h1 {
+    font-size: 24px;
+  }
+
+  .page_sec3_header_wrapper__gaDd5 p {
+    font-size: 12px;
+  }
+
+  .page_features_tab_image__PW4rl {
+    width: 150px;
+    height: 300px;
+  }
+
+  .page_sec3_button__yEIzg button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .page_contactSection__TxMLV h2 {
+    font-size: 28px;
+  }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/components/navbar.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.navbar_box__lqWkh {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f3f3f3;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    z-index: 5;
+}
+
+/* Adjust the logo size for smaller screens */
+.navbar_logo__xJ4N9 {
+    height: 50px;
+}
+
+/* Adjust link spacing and font size */
+.navbar_link__BaIaa {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0px 200px;
+}
+
+.navbar_link__BaIaa li {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30.6px;
+    text-align: center;
+    cursor: pointer;
+    color: #333333;
+}
+
+/* Button styles */
+.navbar_trial__8qCDB {
+    padding: 10px 20px;
+    border-radius: 16px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24.3px;
+    color: #FFFFFF;
+    background-color: #1F1F1F;
+    cursor: pointer;
+}
+
+/* Media Queries for Responsive Scaling */
+@media screen and (max-width: 950px) {
+    .navbar_logo__xJ4N9 {
+        height: 40px;
+    }
+
+    .navbar_link__BaIaa {
+        gap: 20px;
+        margin: 0px 50px;
+    }
+
+    .navbar_link__BaIaa li {
+        font-size: 14px;
+    }
+
+    .navbar_trial__8qCDB {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .navbar_logo__xJ4N9 {
+        height: 35px;
+    }
+
+    .navbar_link__BaIaa {
+        gap: 10px;
+        margin: 0px 20px;
+    }
+
+    .navbar_link__BaIaa li {
+        font-size: 14px;
+    }
+
+    .navbar_trial__8qCDB {
+        display: none;
+    }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/components/footer.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.footer_footer__woFMY {
+    background-color: #1a1a2e;
+    color: #dcdcdc;
+    padding: 40px;
+}
+
+.footer_footerTop__vIW_X {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer_companyInfo__E8w33 {
+    max-width: 400px;
+    flex: 1 1;
+}
+
+.footer_companyInfo__E8w33 p {
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.footer_logoPlaceholder__NzOsU img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.footer_links__jdcnZ {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1;
+}
+
+.footer_links__jdcnZ div h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.footer_links__jdcnZ ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer_links__jdcnZ li {
+    margin-bottom: 8px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.footer_footerBottom__1ZMPv {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 950px) {
+    .footer_footerTop__vIW_X {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer_companyInfo__E8w33,
+    .footer_links__jdcnZ {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .footer_links__jdcnZ {
+        justify-content: center;
+    }
+
+    .footer_logoPlaceholder__NzOsU img {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .footer_footer__woFMY {
+        padding: 20px;
+    }
+
+    .footer_footerTop__vIW_X {
+        gap: 10px;
+    }
+
+    .footer_links__jdcnZ ul {
+        padding: 0;
+    }
+
+    .footer_links__jdcnZ li {
+        font-size: 12px;
+    }
+
+    .footer_logoPlaceholder__NzOsU img {
+        width: 100px;
+    }
+
+    .footer_footerBottom__1ZMPv {
+        font-size: 12px;
+    }
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/components/form.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.form_contactSection__yadOh{
+    width: 90%;
+}
+
+.form_contactSection__yadOh form {
+    display: flex;
+    flex-flow: column;
+    gap: 16px;
+    margin-top: 50px;
+    width: 90%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_contactSection_form_group___Ymtr{
+    display: flex;
+    align-items: center;
+}
+
+.form_contactSection_form_group___Ymtr label {
+    min-width: 120px;
+    text-align: left;
+    font-family: 'Satoshi', sans-serif;
+}
+
+
+.form_contactSection__yadOh form input[type="text"],
+.form_contactSection__yadOh form input[type="email"],
+.form_contactSection__yadOh form textarea {
+    align-items: right;
+    width: 80%;
+    padding: 12px 16px;
+    margin: 8px 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    resize: vertical;
+    /* Allows resizing vertically for textarea */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Focus effect */
+.form_contactSection__yadOh form input[type="text"]:focus,
+.form_contactSection__yadOh form input[type="email"]:focus,
+.form_contactSection__yadOh form textarea:focus {
+    border-color: #1F1F1F;
+    ;
+}
+
+/* Placeholder styling */
+.form_contactSection__yadOh form input[type="text"]::placeholder,
+.form_contactSection__yadOh form input[type="email"]::placeholder,
+.form_contactSection__yadOh form textarea::placeholder {
+    color: #888;
+    opacity: 0.8;
+}
+
+/* Additional styling for the textarea */
+.form_contactSection__yadOh form textarea {
+    min-height: 100px;
+    max-height: 300px;
+    line-height: 1.5;
+}
+
+.form_contactSection__yadOh form button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.3px;
+    color: #FFFFFF;
+    background-color: #1F1F1F;
+    cursor: pointer;
+}
+
+/* Tablet Screens: Between 768px and 950px */
+@media screen and (max-width: 950px) {
+    .form_contactSection__yadOh {
+        width: 90%;
+    }
+
+    .form_contactSection__yadOh form {
+        width: 90%;
+        max-width: 700px;
+    }
+
+    .form_contactSection_form_group___Ymtr label {
+        min-width: 100px;
+        font-size: 14px;
+    }
+
+    .form_contactSection__yadOh form input[type="text"],
+    .form_contactSection__yadOh form input[type="email"],
+    .form_contactSection__yadOh form textarea {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .form_contactSection__yadOh form button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+/* Mobile Screens: Between 548px and 768px */
+@media screen and (max-width: 768px) {
+    .form_contactSection__yadOh {
+        width: 90%;
+    }
+
+    .form_contactSection__yadOh form {
+        width: 100%;
+        padding: 20px;
+        max-width: none;
+    }
+
+    .form_contactSection_form_group___Ymtr {
+        flex-direction: column;
+    }
+
+    .form_contactSection_form_group___Ymtr label {
+        min-width: 100%;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .form_contactSection__yadOh form input[type="text"],
+    .form_contactSection__yadOh form input[type="email"],
+    .form_contactSection__yadOh form textarea {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .form_contactSection__yadOh form button {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+}
+
+/* Small Mobile Screens: Below 548px */
+@media screen and (max-width: 548px) {
+    .form_contactSection__yadOh {
+        width: 90%;
+    }
+
+    .form_contactSection__yadOh form {
+        width: 100%;
+        padding: 15px;
+        max-width: none;
+    }
+
+    .form_contactSection_form_group___Ymtr {
+        flex-direction: column;
+    }
+
+    .form_contactSection_form_group___Ymtr label {
+        min-width: 100%;
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+
+    .form_contactSection__yadOh form input[type="text"],
+    .form_contactSection__yadOh form input[type="email"],
+    .form_contactSection__yadOh form textarea {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .form_contactSection__yadOh form button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

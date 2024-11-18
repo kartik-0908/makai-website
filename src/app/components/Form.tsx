@@ -1,7 +1,5 @@
 import React, { ChangeEvent, FormEvent, useState } from "react";
 import styles from "./form.module.css";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 
 interface FormData {
@@ -22,9 +20,9 @@ function Form() {
     name: "",
     email: "",
     message: "",
-    phone:"",
-    organisation:"",
-    location:""
+    phone: "",
+    organisation: "",
+    location: ""
   });
 
   const [errors, setErrors] = useState<FormErrors>({
@@ -60,39 +58,18 @@ function Form() {
     try {
       const response = await axios.post(makeWebHookURL, formData);
       if (response.status === 200) {
-        toast.success("Thank you! Team Will Connect Soon", {
-          position: "bottom-right",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "colored",
-        });
-
         setFormData({
-          name:"",
-          email:"",
-          message:"",
-          phone:"",
-          organisation:"",
-          location:""
+          name: "",
+          email: "",
+          message: "",
+          phone: "",
+          organisation: "",
+          location: ""
         });
 
         console.log("Saved");
       }
     } catch (error) {
-      toast.error("Something Went Wrong. Please Try Again!", {
-        position: "bottom-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "colored",
-      });
       console.error("Error submitting form data", error);
     }
   };
@@ -104,7 +81,7 @@ function Form() {
           <label htmlFor="name">Name :</label>
           <input
             type="text"
-            placeholder="Name"
+            placeholder="Enter your Name"
             name="name"
             value={formData.name}
             onChange={handleChange}
@@ -115,7 +92,7 @@ function Form() {
           <label htmlFor="email">Email :</label>
           <input
             type="email"
-            placeholder="Email"
+            placeholder="Enter yourEmail"
             name="email"
             value={formData.email}
             onChange={handleChange}
@@ -130,7 +107,7 @@ function Form() {
           <input
             type="text"
             name="phone"
-            placeholder="Phone Number"
+            placeholder="Enter your Phone Number"
             value={formData.phone}
             onChange={handleChange}
             required
@@ -141,7 +118,7 @@ function Form() {
           <input
             type="text"
             name="organisation"
-            placeholder="Organization Name"
+            placeholder="Enter your Organization Name"
             value={formData.organisation}
             onChange={handleChange}
           />
@@ -152,7 +129,7 @@ function Form() {
           <input
             type="text"
             name="location"
-            placeholder="Location"
+            placeholder="Enter your Location"
             value={formData.location}
             onChange={handleChange}
             required
@@ -161,7 +138,7 @@ function Form() {
         <div className={styles.contactSection_form_group}>
           <label htmlFor="message">Message :</label>
           <textarea
-            placeholder="Message"
+            placeholder="Enter any Message"
             name="message"
             value={formData.message}
             onChange={handleChange}
@@ -170,18 +147,6 @@ function Form() {
         </div>
         <button type="submit">Send</button>
       </form>
-      <ToastContainer
-        position="bottom-right"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="colored"
-      />
     </div>
   );
 }
