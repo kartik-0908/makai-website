@@ -1,0 +1,106 @@
+.footer {
+    background-color: #1a1a2e;
+    color: #dcdcdc;
+    padding: 40px;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.companyInfo {
+    max-width: 400px;
+    flex: 1;
+}
+
+.companyInfo p {
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.logoPlaceholder img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.links {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.links div h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links li {
+    margin-bottom: 8px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.footerBottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 950px) {
+    .footerTop {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .companyInfo,
+    .links {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .links {
+        justify-content: center;
+    }
+
+    .logoPlaceholder img {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .footerTop {
+        gap: 10px;
+    }
+
+    .links ul {
+        padding: 0;
+    }
+
+    .links li {
+        font-size: 12px;
+    }
+
+    .logoPlaceholder img {
+        width: 100px;
+    }
+
+    .footerBottom {
+        font-size: 12px;
+    }
+}

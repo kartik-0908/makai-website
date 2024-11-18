@@ -1,0 +1,179 @@
+.contactSection{
+    width: 90%;
+}
+
+.contactSection form {
+    display: flex;
+    flex-flow: column;
+    gap: 16px;
+    margin-top: 50px;
+    width: 90%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactSection_form_group{
+    display: flex;
+    align-items: center;
+}
+
+.contactSection_form_group label {
+    min-width: 120px;
+    text-align: left;
+    font-family: 'Satoshi', sans-serif;
+}
+
+
+.contactSection form input[type="text"],
+.contactSection form input[type="email"],
+.contactSection form textarea {
+    align-items: right;
+    width: 80%;
+    padding: 12px 16px;
+    margin: 8px 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    resize: vertical;
+    /* Allows resizing vertically for textarea */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Focus effect */
+.contactSection form input[type="text"]:focus,
+.contactSection form input[type="email"]:focus,
+.contactSection form textarea:focus {
+    border-color: #1F1F1F;
+    ;
+}
+
+/* Placeholder styling */
+.contactSection form input[type="text"]::placeholder,
+.contactSection form input[type="email"]::placeholder,
+.contactSection form textarea::placeholder {
+    color: #888;
+    opacity: 0.8;
+}
+
+/* Additional styling for the textarea */
+.contactSection form textarea {
+    min-height: 100px;
+    max-height: 300px;
+    line-height: 1.5;
+}
+
+.contactSection form button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.3px;
+    color: #FFFFFF;
+    background-color: #1F1F1F;
+    cursor: pointer;
+}
+
+/* Tablet Screens: Between 768px and 950px */
+@media screen and (max-width: 950px) {
+    .contactSection {
+        width: 90%;
+    }
+
+    .contactSection form {
+        width: 90%;
+        max-width: 700px;
+    }
+
+    .contactSection_form_group label {
+        min-width: 100px;
+        font-size: 14px;
+    }
+
+    .contactSection form input[type="text"],
+    .contactSection form input[type="email"],
+    .contactSection form textarea {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .contactSection form button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+/* Mobile Screens: Between 548px and 768px */
+@media screen and (max-width: 768px) {
+    .contactSection {
+        width: 90%;
+    }
+
+    .contactSection form {
+        width: 100%;
+        padding: 20px;
+        max-width: none;
+    }
+
+    .contactSection_form_group {
+        flex-direction: column;
+    }
+
+    .contactSection_form_group label {
+        min-width: 100%;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .contactSection form input[type="text"],
+    .contactSection form input[type="email"],
+    .contactSection form textarea {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .contactSection form button {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+}
+
+/* Small Mobile Screens: Below 548px */
+@media screen and (max-width: 548px) {
+    .contactSection {
+        width: 90%;
+    }
+
+    .contactSection form {
+        width: 100%;
+        padding: 15px;
+        max-width: none;
+    }
+
+    .contactSection_form_group {
+        flex-direction: column;
+    }
+
+    .contactSection_form_group label {
+        min-width: 100%;
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+
+    .contactSection form input[type="text"],
+    .contactSection form input[type="email"],
+    .contactSection form textarea {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .contactSection form button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

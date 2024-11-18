@@ -1,0 +1,392 @@
+.par{
+  background-color: #f3f3f3;
+}
+
+.page {
+  background-color: #f3f3f3;
+}
+
+.sec1_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.sec1_container_t{
+  margin-top: 60px;
+  max-width: 60%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+@import url('https://api.fontshare.com/v2/css?f[]=clash-grotesk@800&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+.sec1_container_t h2{
+  font-family: 'Clash Grotesk', sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.sec1_container_t button{
+  display: block;
+  padding: 10px 20px;
+  border-radius: 16px;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24.3px;
+  color: #FFFFFF;
+  background-color: #1F1F1F;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.sec1_container_t img{
+  width: 150px;
+}
+
+
+/* starting sec3 */
+.sec3{
+  padding: 120px 30px;
+}
+
+.sec3_container{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 80%;
+}
+
+.sec3_header_wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 80px;
+  gap: 16px;
+}
+
+.sec3_header_wrapper h1{
+  font-family: 'Clash Grotesk', sans-serif;
+  letter-spacing: -1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 120%;
+  color: #161525;
+}
+
+.sec3_header_wrapper p{
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 170%;
+  font-family: 'Clash Grotesk', sans-serif;
+  color: #5f5f69;
+}
+
+.sec3_features {
+  border-radius: 16px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  gap: 170px;
+}
+
+.sec3_features_tab{
+  border-radius: 16px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.sec3_features_tab_button_wrapper{
+  border-right: 1px solid #1615250f;
+  flex-flow: column;
+  width: 35%;
+  padding-bottom: 50px;
+  display: flex;
+  position: relative;
+}
+
+.sec3_features_tab_single{
+  gap: 20px;
+  color: #3330;
+  background-color: #ddd0;
+  border-top: 2px solid #1615250f;
+  border-left: 2px solid #0000;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 24px;
+  display: flex;
+  vertical-align: top;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  max-width: 100%;
+}
+
+.tab_button_icon_left{
+  width: 24px;
+  padding-top: 2px;
+}
+
+.tab_icon_left{
+  width: 28px;
+}
+
+.tab_button_content{
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  width: 80%;
+}
+
+.tab_button_content h2{
+  font-family: 'Clash Grotesk', sans-serif;
+  color: #161525;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 170%;
+}
+
+.tab_button_content p{
+  color: #5f5f69;
+  font-family: 'Clash Grotesk', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 170%;
+}
+
+.tab_button_icon_right{
+  width: 18px;
+}
+
+.tab_icon_right{
+  width: 18px;
+}
+
+.sec3_features_tab_content_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  position: relative;
+  overflow: hidden;
+}
+
+.sec3_features_tab_content_wrapper_single{
+  position: relative;
+}
+
+.features_tab_image{
+  border: 1.5px solid #161525;
+  border-radius: 18px;
+  width: 230px;
+  height: 500px;
+  max-height: 500px;
+  box-shadow: 0 4px #000;
+}
+
+.sec3_button{
+  display: flex;
+  justify-content: center;
+}
+
+.sec3_button button{
+  padding: 10px 20px;
+  border-radius: 16px;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24.3px;
+  color: #FFFFFF;
+  background-color: #1F1F1F;
+  cursor: pointer;
+}
+
+.contactSection{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactSection h2{
+    font-family: 'Clash Grotesk', sans-serif;
+    letter-spacing: -1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #161525;
+}
+
+/* Tablet Screens: Between 768px and 950px */
+@media screen and (max-width: 950px) {
+  .sec1_container_t {
+    max-width: 70%;
+  }
+
+  .sec1_container_t h2 {
+    font-size: 40px;
+  }
+
+  .sec1_container_t button {
+    font-size: 16px;
+    padding: 8px 8px;
+  }
+
+  .sec3 {
+    padding: 100px 20px;
+  }
+
+  .sec3_features {
+    gap: 120px;
+  }
+
+  .sec3_features_tab_button_wrapper {
+    width: 40%;
+  }
+
+  .sec3_features_tab_content_wrapper {
+    width: 60%;
+  }
+
+  .sec3_header_wrapper h1 {
+    font-size: 40px;
+  }
+
+  .sec3_header_wrapper p {
+    font-size: 16px;
+  }
+
+  .features_tab_image {
+    width: 200px;
+    height: 400px;
+  }
+}
+
+/* Mobile Screens: Between 548px and 768px */
+@media screen and (max-width: 768px) {
+  .sec1_container_t {
+    max-width: 90%;
+  }
+
+  .sec1_container_t h2 {
+    font-size: 32px;
+  }
+
+  .sec1_container_t img {
+    width: 100px;
+  }
+
+  .sec3 {
+    padding: 80px 15px;
+  }
+
+  .sec3_features {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .sec3_features_tab_button_wrapper {
+    width: 100%;
+  }
+
+    .sec3_features_tab_content_wrapper{
+      display: none;
+    }
+
+  .sec3_features_tab_single {
+    gap: 15px;
+    padding: 16px;
+  }
+
+  .tab_button_content h2 {
+    font-size: 16px;
+  }
+
+  .tab_button_content p {
+    font-size: 14px;
+  }
+
+  .features_tab_image {
+    width: 180px;
+    height: 360px;
+  }
+
+  .sec3_header_wrapper h1 {
+    font-size: 32px;
+  }
+
+  .sec3_header_wrapper p {
+    font-size: 14px;
+  }
+
+  .contactSection h2 {
+    font-size: 32px;
+  }
+}
+
+/* Small Mobile Screens: Below 548px */
+@media screen and (max-width: 548px) {
+  .sec1_container_t {
+    max-width: 100%;
+  }
+
+  .sec1_container_t h2 {
+    font-size: 28px;
+  }
+
+  .sec1_container_t img {
+    width: 100px;
+  }
+
+  .sec3_features_tab_single {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .sec3_header_wrapper h1 {
+    font-size: 24px;
+  }
+
+  .sec3_header_wrapper p {
+    font-size: 12px;
+  }
+
+  .features_tab_image {
+    width: 150px;
+    height: 300px;
+  }
+
+  .sec3_button button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .contactSection h2 {
+    font-size: 28px;
+  }
+}
