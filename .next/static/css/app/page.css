@@ -434,7 +434,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   border-radius: 16px;
   transition: all 0.3s ease;
 }
@@ -549,7 +549,6 @@
 }
 
 .page_emr_logo__etgJP {
-  background-color: #f3f3f3;
   border-radius: 16px;
   padding: 24px;
   display: flex;
