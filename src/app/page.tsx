@@ -50,6 +50,57 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className={styles.partners}>
+          <div className={styles.partners_container}>
+            <h2>Trusted By Leading Healthcare Organizations</h2>
+            <div className={styles.partners_grid}>
+              <div className={styles.partner_logo}>
+                <img src="./partners/pbaco.png" alt="Palm Beach ACO" />
+              </div>
+              <div className={styles.partner_logo}>
+                <img src="./partners/chatsworth.png" alt="Chatsworth" />
+              </div>
+              <div className={styles.partner_logo}>
+                <img src="./partners/sequoia-living.png" alt="Partner 3" />
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* After the partners section */}
+        <section className={styles.emr_integration}>
+          <div className={styles.emr_container}>
+            <div className={styles.emr_header}>
+              <h2>Integrated with 50+ EMR Vendors</h2>
+              <p>Seamlessly connect with leading Electronic Medical Record systems</p>
+            </div>
+            <div className={styles.emr_grid}>
+              <div className={styles.emr_logo}>
+                <img src="/emr/epic.jpeg" alt="Epic EMR" />
+              </div>
+              <div className={styles.emr_logo}>
+                <img src="/emr/cerner.jpeg" alt="Cerner" />
+              </div>
+              <div className={styles.emr_logo}>
+                <img src="/emr/altera.png" alt="Altera" />
+              </div>
+              <div className={styles.emr_logo}>
+                <img src="/emr/meditech.svg" alt="Meditech" />
+              </div>
+              <div className={styles.emr_logo}>
+                <img src="/emr/athena.png" alt="athenahealth" />
+              </div>
+              <div className={styles.emr_logo}>
+                <img src="/emr/nextgen.png" alt="NextGen Healthcare" />
+              </div>
+              <div className={styles.emr_logo}>
+                <img src="/emr/ecw.png" alt="eClinicalWorks" />
+              </div>
+              <div className={styles.emr_logo}>
+                <img src="/emr/pf.png" alt="Public Fusion" />
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
       <section className={styles.sec3}>
         <div className={styles.sec3_container}>
