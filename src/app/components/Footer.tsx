@@ -6,7 +6,7 @@ const Footer = () => {
       <div className={styles.footerTop}>
         <div className={styles.companyInfo}>
           <div className={styles.logoPlaceholder}>
-            <img src="./logo1.png" alt="logo" />
+            <img src="./logo-latest.png" alt="logo" />
           </div>
           <p>manav@makaicare.com</p>
           <p>415, Mission Street, San Francisco - 94105</p>
