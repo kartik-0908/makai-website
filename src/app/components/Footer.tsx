@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.footerBottom}>
-        <p>© 2024 Makai Care, Inc. All rights reserved.</p>
+        <p>© 2025 Makai Care, Inc. All rights reserved.</p>
       </div>
     </footer>
   );
